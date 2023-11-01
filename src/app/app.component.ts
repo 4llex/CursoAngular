@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'curso-angular';
+
+  //data to be shared with child components
+  userName = 'joaquim'
+  userData = {
+    email: 'joaoquim@gmail.com',
+    role: "admin"
+  }
 }
