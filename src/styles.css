@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+a {
+  color: blue;
+}
+
+.borda-div {
+  border: 2px solid #000; /* Uma borda sólida preta de 2px */
+  padding: 20px; /* Adicionando um preenchimento interno para melhorar a visualização */
+  margin: 20px;
+}
+
+.borda-div-root {
+  border: 10px dashed #000; /* Uma borda sólida preta de 2px */
+  padding: 20px; /* Adicionando um preenchimento interno para melhorar a visualização */
+  margin: 20px;
+}

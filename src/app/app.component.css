@@ -2,3 +2,13 @@ h1{
   font-size: 100px;
   text-align: center;
 }
+
+.title{
+  background-color: black;
+  color: yellow;
+  padding: 15px;
+}
+
+.app-borda-div{
+  border: 2px solid #f70505; /* Uma borda sólida preta de 2px */
+}
