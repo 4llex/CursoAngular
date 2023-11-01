@@ -1,5 +1,5 @@
 h1{
-  font-size: 100px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -10,5 +10,5 @@ h1{
 }
 
 .app-borda-div{
-  border: 2px solid #f70505; /* Uma borda sólida preta de 2px */
+  border: 2px solid #f7df05; /* Uma borda sólida preta de 2px */
 }

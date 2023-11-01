@@ -10,8 +10,8 @@ a {
   color: blue;
 }
 
-.borda-div {
-  border: 2px solid #000; /* Uma borda sólida preta de 2px */
+.borda-div-component {
+  border: 2px dashed #f00606; /* Uma borda sólida preta de 2px */
   padding: 20px; /* Adicionando um preenchimento interno para melhorar a visualização */
   margin: 20px;
 }
@@ -20,4 +20,9 @@ a {
   border: 10px dashed #000; /* Uma borda sólida preta de 2px */
   padding: 20px; /* Adicionando um preenchimento interno para melhorar a visualização */
   margin: 20px;
+  background-color: bisque;
+}
+
+body {
+  background-color: lightblue;
 }
