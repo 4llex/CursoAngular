@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class VehicleComponent {
 
+  modelo: string = "Corolla Toyota"
+  ano: number = 2024
+
 }
