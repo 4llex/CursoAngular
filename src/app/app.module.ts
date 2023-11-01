@@ -6,6 +6,7 @@ import { AlexComponent } from './components/alex/alex.component';
 import { VehicleComponent } from './components/vehicle/vehicle.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { DirectivesComponent } from './components/directives/directives.component';
+import { IfRenderComponent } from './components/if-render/if-render.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { DirectivesComponent } from './components/directives/directives.componen
     AlexComponent,
     VehicleComponent,
     ParentDataComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    IfRenderComponent
   ],
   imports: [
     BrowserModule

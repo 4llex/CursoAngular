@@ -1,0 +1,10 @@
+<div class="borda-div-component">
+  <h2 *ngIf="canShow">if-else render works!</h2>
+
+  <!-- if-else no template/html -->
+  <h2 *ngIf="name === 'Alex'; else nameNotFound">O nome e Alex</h2>
+  <ng-template #nameNotFound>
+    <h2>O nome nao é Alex, é {{name}}</h2>
+  </ng-template>
+</div>
+
