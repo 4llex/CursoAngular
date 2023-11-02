@@ -7,6 +7,7 @@ import { VehicleComponent } from './components/vehicle/vehicle.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { DirectivesComponent } from './components/directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
+import { EventosComponent } from './components/eventos/eventos.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
     VehicleComponent,
     ParentDataComponent,
     DirectivesComponent,
-    IfRenderComponent
+    IfRenderComponent,
+    EventosComponent
   ],
   imports: [
     BrowserModule
