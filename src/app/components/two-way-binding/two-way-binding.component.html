@@ -1,0 +1,14 @@
+<div class="borda-div-component">
+  <h2>two-way-binding works!</h2>
+
+  <form>
+    <input type="text" [(ngModel)]="name"
+    name="name"
+    placeholder="Digite o seu nome">
+    <input type="submit" value="Enviar">
+  </form>
+
+  <div *ngIf="name != ''">
+    <h2>O nome é: {{name}}</h2>
+  </div>
+</div>
