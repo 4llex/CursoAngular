@@ -1,35 +1,21 @@
-
 <div class="app-borda-div">
-
+  <p>Header</p>
+  <nav>
+    <a routerLink="">Alex</a>
+    <a routerLink="/vehicle">Veiculo</a>
+    <a routerLink="parent-data">Parent Data</a>
+    <a routerLink="/directives">Diretivas</a>
+    <a routerLink="if-render">If-Render</a>
+    <a routerLink="/events">Eventos(click)</a>
+    <a routerLink="emitter">Emitter</a>
+    <a routerLink="/pipe">Pipe</a>
+    <a routerLink="binding">2Way Biding</a>
+    <a routerLink="/list">Lista Animais</a>
+  </nav>
   <h1 class="title">Hello World, App level!</h1>
+  <router-outlet></router-outlet>
+  <p>footer</p>
 
-  <!-- Inject component [alex] -->
-  <app-alex></app-alex>
-  <!-- Inject component [vehicle] -->
-  <app-vehicle></app-vehicle>
 
-  <!-- Inject component [parent-data] to share data-->
-  <app-parent-data [name] = "userName" [userData] = "userData"></app-parent-data>
-
-  <!-- Inject component [directives] -->
-  <app-directives></app-directives>
-
-  <!-- Inject component [if-render] -->
-  <app-if-render></app-if-render>
-
-  <!-- Import/Inject component [eventos] -->
-  <app-eventos></app-eventos>
-
-  <!-- Import/Inject component Parent [emitter] -->
-  <app-emitter></app-emitter>
-
-  <!-- Import/Inject component  [list-render] -->
-  <app-list-render></app-list-render>
-
-  <!-- Import/Inject component  [pipes] -->
-  <app-pipes></app-pipes>
-
-  <!-- Import/Inject component  [two-way-databinding] -->
-  <app-two-way-binding></app-two-way-binding>
 </div>
 
