@@ -10,6 +10,7 @@ import { IfRenderComponent } from "./components/if-render/if-render.component"
 import { EventosComponent } from "./components/eventos/eventos.component"
 import { PipesComponent } from "./components/pipes/pipes.component"
 import { TwoWayBindingComponent } from "./components/two-way-binding/two-way-binding.component"
+import { ItemDetailComponent } from "./components/item-detail/item-detail.component"
 
 const routes: Routes = [
   {path: '', component: AlexComponent},
@@ -22,7 +23,8 @@ const routes: Routes = [
   {path: 'list', component: ListRenderComponent},
   {path: 'pipe', component: PipesComponent},
   {path: 'binding', component: TwoWayBindingComponent},
-  {path: 'change-number', component: EmitterComponent}
+  {path: 'change-number', component: EmitterComponent},
+  {path: 'list/:id', component: ItemDetailComponent}
 ]
 
 @NgModule({

@@ -26,10 +26,6 @@ export class ListRenderComponent {
     this.animals = this.listService.remove(this.animals, animal)
   }
 
-  resetAnimalsList() {
-    this.animals = this.listService.reset()
-  }
-
   getAnimals(): void {
     this.listService.getAll().subscribe(animal => this.animals = animal)
   }

@@ -1,9 +1,9 @@
 <div class="borda-div-component">
   <h2>list-render works! *ngFor</h2>
   <h2>Animais:</h2>
-  <button (click)="resetAnimalsList()">Reset list</button>
   <ul>
-    <li *ngFor="let animal of animals"> Name: {{animal.name}} - Type: {{animal.type}}
+    <li *ngFor="let animal of animals">
+      Name: <a routerLink="/list/{{animal.id}}">{{animal.name}}</a> - Type: {{animal.type}}
       <button (click)="showAge(animal)">Show Age</button>
       <button (click)="removeAnimal(animal)">Excluir</button>
     </li>
